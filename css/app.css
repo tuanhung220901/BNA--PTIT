@@ -11,9 +11,7 @@ body{
     
 }
 html{
-    font-family: "Cairo", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .bg-01{
     width: 50px;

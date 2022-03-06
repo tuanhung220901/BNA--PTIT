@@ -7,3 +7,7 @@ function myFunction() {
     setTimeout(myFunction, 3000);
   }
   my();
+// $(window).on("load", function (event) {
+//   $("body").removeClass("preloading");
+//   $("#loader").delay(1000).fadeOut("fast");
+// });
