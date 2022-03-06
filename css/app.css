@@ -109,17 +109,24 @@ html{
 }
 .text-1 h1{
     font-size: 73px;
+    margin:0px;
+    line-height: 75px;
 }
 .text-1 p{
+    line-height: 30px;
+    margin-top: 20px;
     color: #333333;
 }
 .text-2 p{
+    line-height: 30px;
+    margin-top: 0;
     color: #333333;
 }
 span{
     font-weight: bold;
 }
 .text-2 h1{
+    margin: 0;
     font-size: 64px;
 }
 .text-3{
@@ -222,13 +229,16 @@ hd-3{
     justify-content: space-between;
 }
 .hd h3{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 8px;
     text-align: center;
     font-size: 144px;
     color: #015000;
+    margin-bottom: 0;
 }
 .hd p{
+    line-height: 30px;
+    margin-top: 0;
     font-size: 30px;
 }
 .content-5{
@@ -278,6 +288,7 @@ hd-3{
     margin-top: 100px;
 }
 ul li{
+    margin-left: 30px;
     font-size: 24px;
     line-height: 1.2cm;
     color: #333333;
@@ -295,6 +306,3 @@ ul{
     font-size:48px;
     color: #015000;
   }
-.text-2 h1{
-    margin-bottom: 30px;
-}
