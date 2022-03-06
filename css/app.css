@@ -316,7 +316,7 @@ ul{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
 }
 .footer-1{
     width: 30%;
@@ -377,7 +377,7 @@ ul{
 }
 .footer-withlove{
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 a{
     text-decoration: none;
