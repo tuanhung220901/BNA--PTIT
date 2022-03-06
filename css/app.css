@@ -241,8 +241,8 @@ hd-3{
     gap:15px;
 }
 .item1 {
-    grid-column: 1 / span 2;
-    grid-row: 1/ 3;
+    grid-column: 1 / 4;
+  grid-row: 1 / 3;
     background-image: url("../img/240512329_607823097270411_4298169284817493501_n.jpg");
     background-size: 100% 100%;
     width: 100%;
@@ -250,23 +250,27 @@ hd-3{
 }
   
 .item2 {
-    grid-column: 3;
-    grid-row: 1  ;
+    grid-column: 4 / 6;
+  grid-row: 1;
     background-image: url("../img/240106614_611144993604888_1551848545334909749_n.png");
     background-size: 100% 100%;
 }
 .item3{
     background-image: url("../img/142563066_468737097845679_3844533273797600747_n.jpg");
     background-size: 100% 100%;
+    grid-column: 4 / 6;
+  grid-row: 2;
 }
 .item4{
     background-image: url("../img/ws\ bao\ việc\ hay\ bao\ đồng-01.jpg");
     background-size: 100% 100%;
     height: 55vh;
+    grid-column: 1 / 3;
+ grid-row: 3 / 5;
 }
 .item5 {
-    grid-column: 2 / span 2;
-    grid-row: 3;
+    grid-column: 3 / 6;
+  grid-row: 3 / 5;
     background-image: url("../img/240394296_607823463937041_1164640521647702733_n.jpg");
     background-size: 100% 100%;
 }
