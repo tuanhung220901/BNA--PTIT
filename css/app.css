@@ -67,7 +67,7 @@ html{
     width: 100%;
 }
 .text-1{
-    font-size: 150%;
+    font-size: 22px;
     width: 50%;
     color: #015000;
 }
@@ -103,7 +103,7 @@ html{
     font-weight: bold;
 }
 .text-2{
-    font-size: 150%;
+    font-size: 22px;
     width: 100%;
     color: #015000;
 }
@@ -127,7 +127,7 @@ span{
 }
 .text-2 h1{
     margin: 0;
-    font-size: 64px;
+    font-size: 58px;
 }
 .text-3{
     width: 100%;
@@ -135,7 +135,7 @@ span{
     text-align: center;
 }
 .text-3 h1{
-    font-size: 64px;
+    font-size: 58px;
 }
 .content-3{
     margin-top: 100px;
@@ -289,7 +289,7 @@ hd-3{
 }
 .content-6 ul li{
     margin-left: 30px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.2cm;
     color: #333333;
 }
@@ -355,6 +355,7 @@ ul{
 .footer-3{
     width: 30%;
     display: flex;
+    justify-content: end;
 }
 .vong-tron{
     width: 42px;
@@ -388,4 +389,163 @@ a{
 }
 .content-4 h3{
     transition: 0.5s;
+}
+@media only screen and (min-width:740px) and (max-width: 1024px) {
+    .text-1 h1 {
+        font-size: 39px;
+        margin: 0px;
+        line-height: 45px;
+    }
+    .text-1 {
+        font-size: 16px;
+        width: 50%;
+        color: #015000;
+    }
+    .text-1 p {
+        line-height: 19px;
+        margin-top: 20px;
+        color: #333333;
+    }
+    .headers .intro {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: #333333;
+    }
+    .intro .intro-2 {
+        color: white;
+        padding: 5px 18px;
+        border-radius: 50px;
+        border: 2px solid #015000;
+        background-color: #015000;
+        transition: 0.5s;
+    }
+    .content {
+        width: 85%;
+        margin: auto;
+    }
+    .text-2 h1 {
+        margin: 0;
+        font-size: 35px;
+    }
+    .text-2 {
+        font-size: 16px;
+        width: 100%;
+        color: #015000;
+    }
+    .content-3 {
+        margin-top: 0px;
+    }
+    .text-3 h1{
+        font-size: 35px;
+    }
+    .cau-truc-1 p {
+        font-size: 11px;
+    }
+    .cau-truc-2 p {
+        font-size: 11px;
+    }
+    .cau-truc-3 p {
+        font-size: 11px;
+    }
+    .cau-truc-1 h2 {
+        font-size: 16px;
+    }
+    .cau-truc-2 h2 {
+        font-size: 16px;
+    }
+    .cau-truc-3 h2 {
+        font-size: 16px;
+    }
+    .can-le {
+        padding: 10px 15px 10px 15px;
+    }
+    .bg-03 {
+        width: 100%;
+        height: 120px;
+    }
+    .bg-04 {
+        width: 100%;
+        height: 120px;
+    }
+    .bg-05 {
+        width: 100%;
+        height: 120px;
+    }
+    .hd h3 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .hd p{
+        text-align: center;
+        font-size: 20px;
+    }
+    .content-4 {
+        margin-top: 50px;
+    }
+    .content-5 {
+        margin-top: 50px;
+    }
+    .item1{
+        height: 25vh;
+    }
+    .item4{
+        height: 25vh;
+    }
+    .content-6 {
+        margin-top: 50px;
+    }
+    .text-1 .intro .intro-1 {
+        width: 100px;
+    }
+    .text-1 .intro .intro-2 {
+        width: 100px;
+    }
+    .content-6 ul li{
+        font-size: 16px;
+    }
+    .bg-footer{
+        height: 30px;
+    }
+    .footer-1 p {
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .content-7 ul {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+    .footer-2 h4 {
+        font-size: 16px;
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .content-7 ul li {
+        line-height: 0.7cm;
+    }
+    .content-6 ul li {
+        margin-left: 30px;
+        line-height: 0.8cm;
+        color: #333333;
+    }
+    .chinh {
+        margin-top: 6px;
+    }
+    .vong-tron {
+        width: 25px;
+        height: 25px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        margin-right: 15px;
+        text-align: center;
+        /* margin-bottom: 3px; */
+        /* line-height: 0px; */
+    }
+}
+@media only screen and(max-width: 740px){
+    
 }
