@@ -390,6 +390,54 @@ a{
 .content-4 h3{
     transition: 0.5s;
 }
+.navbar{
+    font-size:30px;
+    cursor:pointer;
+    display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: #015000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #lop-phu{
+      top:0;
+      left:0;
+      right: 0;
+      bottom: 0;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: none;
+      z-index: 5;
+  }
 @media only screen and (min-width:740px) and (max-width: 1024px) {
     .text-1 h1 {
         font-size: 39px;
@@ -546,6 +594,248 @@ a{
         /* line-height: 0px; */
     }
 }
-@media only screen and(max-width: 740px){
-    
+@media screen and (max-width:740px) {
+    .headers{
+        margin-bottom: 20px;
+    }
+    .headers .intro{
+        display: none;
+    }
+    .navbar{
+        display: block;
+    }
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+    .bg-01 {
+        width: 40px;
+        height: 50px;
+    }
+    .vector-1{
+        top: 65px;
+    }
+    .content-1 .text-1 p{
+        display: none;
+    }
+    .content-1 .text-1 h1{
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .content-1{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .content-1 .text-1{
+        width: 100%;
+       
+    }
+    .bg-02{
+        width: 70%;
+        height: 174px;
+    }
+    .content-1{
+        position: relative;
+        padding-bottom: 65px;
+    }
+    .content-1 .intro{
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+    }
+    .content-1 .text-1 .intro{
+        justify-content: center;
+    }
+    .content-1 .intro .intro-1{
+        width: 120px;
+        height: 30px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .content-1 .intro .intro-2{
+        width: 120px;
+        height: 30px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .text-2 h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+    .text-2 {
+        font-size: 14px;
+        width: 100%;
+        color: #015000;
+    }
+    .text-2 p {
+        line-height: 16px;
+        margin-top: 0;
+        color: #333333;
+    }
+    .text-3 h1 {
+        font-size: 30px;
+    }
+    .content-3 {
+        margin-top: 0px;
+    }
+    .content-3 h1{
+        line-height: 40px;
+    }
+    .vector-2{
+        margin-top: 50px;
+    }
+    .cau-truc{
+        display: block;
+    }
+    .bg-03{
+        width: 147px;
+        height: 147px;
+        border-radius: 0;
+    }
+    .cau-truc .cau-truc-1 {
+        display: flex;
+        width: 100%;
+    }
+    .can-le{
+        padding: 0;
+        width: calc(100% - 147px);
+        margin-left: 10px;
+    }
+    .cau-truc-1 h2{
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .cau-truc-1 p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .bg-04{
+        width: 147px;
+        height: 147px;
+        border-radius: 0;
+    }
+    .cau-truc .cau-truc-2 {
+        display: flex;
+        width: 100%;
+    }
+    .can-le{
+        padding: 0;
+        width: calc(100% - 147px);
+        margin-left: 10px;
+    }
+    .cau-truc-2 h2{
+        font-size: 19px;
+        line-height: 10px;
+    }
+    .cau-truc-2 p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .bg-05{
+        width: 147px;
+        height: 147px;
+        border-radius: 0;
+    }
+    .cau-truc .cau-truc-3{
+        display: flex;
+        width: 100%;
+    }
+    .can-le{
+        padding: 0;
+        width: calc(100% - 147px);
+        margin-left: 10px;
+    }
+    .cau-truc-3 h2{
+        font-size: 19px;
+        line-height: 15px;
+    }
+    .cau-truc-3 p{
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0;
+    }
+    .cau-truc-2{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .cau-truc-3{
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .cau-truc-1{
+        border-radius: 10px;
+    }
+    .content-4{
+        margin-top: 0px;
+    }
+    .hd h3 {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        text-align: center;
+        font-size: 60px;
+        color: #015000;
+        margin-bottom: 0;
+        line-height: 65px;
+    }
+    .hd p {
+        line-height: 18px;
+        margin-top: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    .content-5{
+        margin-top: 0px;
+    }
+    .item1{
+        height: 20vh;
+    }
+    .item4{
+        height: 20vh;
+    }
+    .grid-content{
+        gap: 5px;
+    }
+    .content-6{
+        margin-top: 20px;
+    }
+    .content-6 ul li {
+        margin-left: 15px;
+        font-size: 14px;
+        line-height: 0.6cm;
+        color: #333333;
+    }
+    .footer {
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .footer-2{
+        display: none;
+    }
+    .content-7{
+        margin-top: 0;
+    }
+    .footer-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-3{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .footer-withlove p{
+        font-size: 12px;
+    }
+    .scroll-btn{
+       left: 5px;
+       bottom: 5px;
+    }
+    .logo-book{
+        width: 375px;
+    }
 }

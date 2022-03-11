@@ -12,8 +12,8 @@
     <title>BNA PTIT</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/load.css">
+    <link rel="stylesheet" href="./css/app.css">
     <!-- icon -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,11 +21,11 @@
 <body>
     
     <!-- loading -->
-    <!-- <div id="loader">
+    <div id="loader">
         <div class="logo-book"></div>
         <div id="shadow"></div>
         <div id="box"></div>
-    </div> -->
+    </div>
     <!-- message -->
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
@@ -58,9 +58,18 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     <!-- content -->
+    <div id="lop-phu" onclick="closeNav()"></div>
+    <div id="mySidenav" class="sidenav">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Liên hệ</a>
+    </div>
+
     <div class="content">
         <div class="headers">
             <img src="./img/logo-01.png" alt="" class="bg-01">
+            <!-- only moblie -->
+            <span class="navbar" onclick="openNav()">&#9776;</span>
             <div class="intro">
                 <div class="intro-1">Giới thiệu</div>
                 <div class="intro-2">Liên hệ</div>
@@ -197,8 +206,9 @@
     <!-- scroll to top -->
     <div class="scroll-btn">
         <i class="fa fa-caret-up"></i>
-      </div>
+    </div>
     <script src="./js/scroll.js"></script>
     <script src="./js/load.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
